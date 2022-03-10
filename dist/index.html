@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Network Hierarchical graph with Vis.js and the DOT language</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div>
+    <input type="button" id="btn-NO" value="No hierarchy">
+    <input type="button" id="btn-UD" value="Up-Down">
+    <input type="button" id="btn-DU" value="Down-Up">
+    <input type="button" id="btn-LR" value="Left-Right">
+    <input type="button" id="btn-RL" value="Right-Left">
+</div>
+<br/>Examples of <a href="https://en.wikipedia.org/wiki/DOT_(graph_description_language)" target="_blank">DOT</a> graphs:
+<div id="serie">
+</div>
+<br>
+
+<div id="mynetwork"></div>
+
+<br>
+
+<span>DOT code source :</span>
+
+<pre id="selection"></pre>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
